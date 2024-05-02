@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { IoIosSend } from "react-icons/io";
 import { notification } from "antd";
 import { IMessage } from "../utils/interface/chat.interface";
-import { supabase } from "../services/supabase/connection";
+// import { supabase } from "../services/supabase/connection";
 import { AiChat, UserChat } from "../components/chat";
 import { getIdSession } from "../services/supabase/session";
 import Navbar from "../components/Navbar";
